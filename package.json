@@ -1,0 +1,24 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Welcome to my TypeScript learning repository! This is a documented journey of learning TypeScript from basics to advanced concepts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev":"npx tsc "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishekh3007/TypeScript-learning-Basics-to-Advance-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishekh3007/TypeScript-learning-Basics-to-Advance-/issues"
+  },
+  "homepage": "https://github.com/Abhishekh3007/TypeScript-learning-Basics-to-Advance-#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}
