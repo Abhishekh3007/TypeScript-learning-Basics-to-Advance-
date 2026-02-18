@@ -19,18 +19,24 @@ I'm learning TypeScript progressively, starting from fundamentals and moving tow
 ## 📖 Topics Covered
 
 ### Basics
-- [ ] Basic Types
-- [ ] Variables and Constants
-- [ ] Type Annotations
-- [ ] Type Inference
+- [x] Basic Types (string, number, boolean)
+- [x] Variables and Constants (let, const)
+- [x] Type Annotations
+- [x] Type Inference
+- [x] Union Types
+- [x] Any Type
+- [x] Functions with Type Annotations
 
 ### Intermediate
 - [ ] Interfaces
 - [ ] Classes
 - [ ] Generics
 - [ ] Enums
-- [ ] Union and Intersection Types
+- [ ] Intersection Types
 - [ ] Type Aliases
+- [ ] Literal Types
+- [ ] Arrays and Tuples
+- [ ] Objects
 
 ### Advanced
 - [ ] Advanced Types
@@ -39,33 +45,46 @@ I'm learning TypeScript progressively, starting from fundamentals and moving tow
 - [ ] TypeScript with React/Node.js
 - [ ] Type Guards
 - [ ] Utility Types
+- [ ] Mapped Types
+- [ ] Conditional Types
 
 ## 🗂️ Repository Structure
 
 ```
 TypeScript/
-├── Basic.ts          # Basic TypeScript concepts
-├── README.md         # This file
-└── (more files to be added as I progress)
+├── src/
+│   ├── index.ts          # Entry point with functions
+│   ├── typesTs.ts        # Basic types, type annotations, type inference
+│   └── unionAndany.ts    # Union types and any type
+├── dist/                 # Compiled JavaScript files (gitignored)
+├── Basic.ts              # Initial basic concepts
+├── tsconfig.json         # TypeScript configuration
+├── package.json          # Project dependencies
+├── .gitignore            # Git ignore rules
+└── README.md             # This file
 ```
 
 ## 🔧 How to Run
 
 ```bash
-# Compile TypeScript file
-tsc filename.ts
+# Install dependencies
+npm install
 
-# Run the compiled JavaScript
-node filename.js
+# Compile all TypeScript files
+npx tsc
 
-# Or use ts-node for direct execution
-ts-node filename.ts
+# Run the compiled output
+node dist/index.js
+
+# Or compile and run a single file
+tsc filename.ts && node filename.js
 ```
 
 ## 📝 Progress Log
 
-- **Started**: February 2026
-- Currently working on: Basic TypeScript concepts
+- **Started**: February 17, 2026
+- **Day 1**: Covered basic types, type annotations, type inference, union types, any type, and basic functions
+- Currently working on: Expanding to intermediate TypeScript concepts
 
 ## 🤝 Contributing
 
