@@ -26,6 +26,7 @@ I'm learning TypeScript progressively, starting from fundamentals and moving tow
 - [x] Union Types
 - [x] Any Type
 - [x] Functions with Type Annotations
+- [x] Type Narrowing
 
 ### Intermediate
 - [ ] Interfaces
@@ -55,7 +56,8 @@ TypeScript/
 ├── src/
 │   ├── index.ts          # Entry point with functions
 │   ├── typesTs.ts        # Basic types, type annotations, type inference
-│   └── unionAndany.ts    # Union types and any type
+│   ├── unionAndany.ts    # Union types and any type
+│   └── typeNarrowing.ts  # Type narrowing with typeof checks
 ├── dist/                 # Compiled JavaScript files (gitignored)
 ├── Basic.ts              # Initial basic concepts
 ├── tsconfig.json         # TypeScript configuration
@@ -83,6 +85,7 @@ tsc filename.ts && node filename.js
 ## 📝 Progress Log
 
 - **Started**: February 17, 2026
+- **Day 2**: Added type narrowing with typeof checks and conditional type refinement
 - **Day 1**: Covered basic types, type annotations, type inference, union types, any type, and basic functions
 - Currently working on: Expanding to intermediate TypeScript concepts
 
